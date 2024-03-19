@@ -98,7 +98,7 @@
         </svg>
       </td>
       <td class="name">
-        <a href="{str:encode-uri(current(),true())}" target="_blank">
+        <a href="{str:encode-uri(current(),true())}">
           <xsl:value-of select="." />
         </a>
       </td>
